@@ -53,22 +53,7 @@ const ServiceCards = () => {
             </div>
           </div>
         </div>
-        <div className="service-card col-6 col-md-4">
-          <div className="card shadow-sm border-2 text-center">
-            <div className="card-body">
-              <i className="fa-brands fa-spotify"></i>
-              <h6>Spotify streams</h6>
-            </div>
-          </div>
-        </div>
-        <div className="service-card col-6 col-md-4">
-          <div className="card shadow-sm border-2 text-center">
-            <div className="card-body">
-              <i className="fa-brands fa-apple"></i>
-              <h6>Applemusic plays</h6>
-            </div>
-          </div>
-        </div>
+        
         <div className="service-card col-6 col-md-4">
           <div className="card shadow-sm border-2 shadow-sm text-center">
             <div className="card-body">
