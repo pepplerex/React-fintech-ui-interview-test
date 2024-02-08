@@ -14,19 +14,13 @@ const LargeScreen = () => {
 
       <ul className="sidebar-list">
         <a>
-          <li
-            onClick={() => navigate("/dashboard")}
-            className={pathname === "/dashboard" ? "active" : ""}
-          >
+          <li className={pathname === "/dashboard" ? "active" : ""}>
             <i className="fa-solid fa-layer-group"></i>
             Dashboard
           </li>
         </a>
         <a>
-          <li
-            onClick={() => navigate("/transactions")}
-            className={pathname === "/transactions" ? "active" : ""}
-          >
+          <li className={pathname === "/transactions" ? "active" : ""}>
             <i className="fa-solid fa-file-invoice"></i> Transactions
           </li>
         </a>
@@ -42,10 +36,7 @@ const LargeScreen = () => {
         </li>
 
         <a>
-          <li
-            onClick={() => navigate("/settings")}
-            className={pathname === "/settings" ? "active" : ""}
-          >
+          <li className={pathname === "/settings" ? "active" : ""}>
             <i className="fa-solid fa-gear"></i> Settings
           </li>
         </a>
