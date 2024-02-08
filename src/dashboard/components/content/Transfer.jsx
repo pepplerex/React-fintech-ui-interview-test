@@ -11,12 +11,9 @@ const Transfer = () => {
       >
         <div className="offcanvas-header">
           <h5 className="offcanvas-title" id="offcanvasTransaferLabel">
-            Transfer
+            Content
           </h5>
-          <p>
-            Send money to your family & friends directly from your app wallet
-            balance
-          </p>
+
           <button
             type="button"
             className="btn-close text-reset"
@@ -26,8 +23,8 @@ const Transfer = () => {
         </div>
         <div className="offcanvas-body">
           <div>
-            Some text as placeholder. In real life you can have the elements you
-            have chosen. Like, text, images, lists, etc.
+            Some text as placeholder. No further development here. you can have
+            the elements you have chosen. Like, text, images, lists, etc.
           </div>
           <div className="dropdown mt-3">
             <button

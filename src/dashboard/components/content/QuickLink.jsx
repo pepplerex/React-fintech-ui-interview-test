@@ -7,8 +7,8 @@ const QuickLink = () => {
         <div
           className="col-3 quicklink-action quicklink-action"
           data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasWidthdraw"
-          aria-controls="offcanvasWidthdraw"
+          data-bs-target="#offcanvasTransafer"
+          aria-controls="offcanvasTransafer"
         >
           <div className="link-content shadow">
             <i className="fa-solid fa-wallet"></i>
@@ -26,13 +26,23 @@ const QuickLink = () => {
           </div>
           <p>Transfer</p>
         </div>
-        <div className="col-3 quicklink-action">
+        <div
+          className="col-3 quicklink-action"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasTransafer"
+          aria-controls="offcanvasTransafer"
+        >
           <div className="link-content shadow">
             <i className="fa-solid fa-building-columns"></i>
           </div>
           <p>My Bank</p>
         </div>
-        <div className="col-3 quicklink-action">
+        <div
+          className="col-3 quicklink-action"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasTransafer"
+          aria-controls="offcanvasTransafer"
+        >
           <div className="link-content shadow">
             <i className="fa-solid fa-address-book"></i>
           </div>

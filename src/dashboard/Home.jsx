@@ -3,9 +3,6 @@ import BalanceCard from "./components/content/BalanceCard";
 import ServiceCards from "./components/content/ServiceCards";
 import QuickLink from "./components/content/QuickLink";
 import Transfer from "./components/content/Transfer";
-import Withdraw from "./components/content/Withdraw";
-import Airtime from "./components/content/Airtime";
-import DataSubscription from "./components/content/DataSubscription";
 
 import Header from "./components/header/Header";
 import Navigation from "./components/Navigation";

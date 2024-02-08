@@ -19,8 +19,7 @@ const SmallScreen = () => {
         <div className="nav__menu" id="nav-menu">
           <ul className="nav__list">
             <li className="nav__item">
-              <Link
-                to={"/dashboard"}
+              <a
                 className={
                   pathname === "/dashboard"
                     ? "active-link nav__link"
@@ -29,12 +28,11 @@ const SmallScreen = () => {
               >
                 <i className="bx bx-home-alt nav__icon"></i>
                 <span className="nav__name">Home</span>
-              </Link>
+              </a>
             </li>
 
             <li className="nav__item">
-              <Link
-                to={"/transactions"}
+              <a
                 className={
                   pathname === "/transactions"
                     ? "active-link nav__link"
@@ -43,12 +41,11 @@ const SmallScreen = () => {
               >
                 <i className="bx bx-user nav__icon"></i>
                 <span className="nav__name">Transactions</span>
-              </Link>
+              </a>
             </li>
 
             <li className="nav__item">
-              <Link
-                to={"/settings"}
+              <a
                 className={
                   pathname === "/settings"
                     ? "active-link nav__link"
@@ -57,7 +54,7 @@ const SmallScreen = () => {
               >
                 <i className="fa-solid fa-gear nav__icon"></i>
                 <span className="nav__name">Settings</span>
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
