@@ -1,5 +1,5 @@
 ﻿# React Elegant Fintech UI Dashboard for interview assesment
- 
+- Please Read license first
 - A simple fintech ui dashboard written in React js
 - The project is optimized for bth small screens and large screen
 - Beautiful notification modals, personalised ui dashboard for users
