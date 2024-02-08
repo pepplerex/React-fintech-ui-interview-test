@@ -1,0 +1,655 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+    /* tap-highlight-color: transparent; */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f8f9fa;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #333;
+}
+
+.main-content {
+    /* border: 1px solid; */
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* .content-container {
+    margin-top: 20px;
+    margin-bottom: 90px;
+} */
+
+.content-container {
+    min-height: 80vh;
+    margin-bottom: 15%;
+}
+
+@media (max-width: 690px) {
+    .content-container {
+        margin-bottom: 35%;
+    }
+}
+
+@media(max-width: 690px) {
+    .content-container {
+        margin-top: 110px;
+    }
+}
+
+/* User text style  */
+
+.user-text h3 {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.user-text p {
+    color: gray;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.balance-card-container {
+    margin-top: 30px;
+}
+
+.balance-card {
+    margin-top: 20px;
+    min-height: 10vh;
+    border-radius: 25px;
+    /* background-color: blueviolet; */
+}
+
+.balance-card h6 {
+    font-weight: 300;
+    font-size: 13px;
+}
+
+@media (min-width:790px) {
+    .balance-card h6 {
+        font-weight: 300;
+        font-size: 15px;
+    }
+
+}
+
+.balance-value-text {
+    margin-top: 20px;
+}
+
+.balance-value-text h3 {
+    margin-top: 15px;
+    font-weight: 500;
+    align-items: center;
+    align-content: center;
+}
+
+.balance-value-text i {
+    font-weight: 200;
+    margin-left: 12px;
+    font-size: 16px;
+    padding-top: 23px;
+    cursor: pointer;
+}
+
+.balance-card .btn-text {
+    font-size: 12px;
+}
+
+@media (min-width: 790px) {
+    .balance-card .btn-text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .app-container {
+        margin-top: 20%;
+    }
+}
+
+/* service cards styles  */
+
+.service-container {
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+.service-card {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.service-card .card {
+    /* border: 1px solid; */
+    padding: 0;
+    border: 0;
+    border-radius: 10px;
+    min-height: 10vh;
+}
+
+.service-card .card-body i {
+    margin-bottom: 15px;
+}
+
+.service-card .card-body h6 {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+@media (min-width: 790px) {
+    .service-card .card-body h6 {
+        font-size: 16px;
+    }
+}
+
+/* quicklinnk css  */
+
+.quick-link {
+    /* border: 1px solid; */
+    min-height: 10vh;
+    margin-top: 20px;
+}
+
+.quick-link .row {
+    text-align: center;
+}
+
+.link-content {
+    margin: 6px auto;
+    display: flex;
+    padding: 4px;
+    text-align: center;
+    background: blueviolet;
+    border-radius: 30%;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.link-content i {
+    color: white;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.quicklink-action p {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* former was 760px */
+/* write query for 1182px */
+@media (max-width: 760px) {
+    .link-content {
+        margin-bottom: 12px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .quicklink-action p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .link-content i {
+        color: white;
+        /* padding: 19px; */
+        padding: 19%;
+        font-size: 18px;
+    }
+}
+
+/* TRANSACTIONS CSS */
+
+.transactions-container {
+    margin-top: 30px;
+    min-height: 30vh;
+    /* border: 1px solid; */
+}
+
+.transactions-container h4 {
+    margin-bottom: 20px;
+}
+
+
+.tnx-containter2 {
+    margin-bottom: 50px;
+}
+
+/* transactions card styles  */
+
+/* .transactions-container {} */
+
+@media (max-width: 770px) {
+    .transactions-container {
+        margin-top: 25%;
+    }
+
+    .tnx-containter2 {
+        margin-bottom: 150px;
+    }
+}
+
+.transaction-nav {
+    margin-top: 30px;
+}
+
+.tnx-container {
+    margin-top: 30px;
+}
+
+.tnx-data-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 10px;
+    /* background-color: blueviolet; */
+    /* border: 1px solid; */
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.tnx-data-container:hover {
+    background-color: blueviolet;
+    color: #fff;
+    transition: 0.3s;
+    /* border: 1px solid; */
+}
+
+.tnx-icon-container {
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: #333; */
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.tnx-icon-text {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8px;
+}
+
+/* service styles  */
+
+.services-container {
+    margin-top: 30px;
+}
+
+@media (max-width: 770px) {
+    .services-container {
+        margin-top: 30%;
+    }
+}
+
+.service-header {
+    /* border: 1px solid; */
+    padding: 5px;
+    /* border-bottom: 1px solid; */
+}
+
+/* .service-header-content {
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+} */
+
+.service-header-content {
+    background: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;
+    border: 1px solid;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.service-header h3 {
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.service-item {
+    margin-top: 14px;
+    /* border: 1px solid; */
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.service-item:hover {
+    background: blueviolet;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.service-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.service-item span {
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.notification-content {
+    margin-bottom: 20px;
+}
+
+/* settings page styles  */
+
+.settings-container {
+    margin-top: 15px;
+}
+
+.setting-icon {
+    /* border: 1px solid; */
+    padding: 10px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: #fff;
+    cursor: pointer;
+}
+
+.settings-header-text {
+    margin-top: 35px;
+}
+
+.settings-header-text h5 {
+    font-weight: 600;
+}
+
+.settings-header-text p {
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.setting-header-img {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.setting-header-img img {
+    width: 90px;
+    height: 90px;
+}
+
+.setting-header-img span {
+    margin-left: 20px;
+    cursor: pointer;
+    /* border: 1px solid; */
+    background-color: blueviolet;
+    color: #fff;
+    padding: 14px;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 15px;
+}
+
+.setting-header-text-2 {
+    margin-top: 20px;
+    display: block;
+}
+
+.setting-header-text-2 h5 {
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.setting-header-text-2 span {
+    font-size: 14px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.setting-header {
+    /* border: 1px solid; */
+    padding-bottom: 20px;
+}
+
+.setting-content h6 {
+    font-weight: 300;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.setting-item {
+    /* border: 1px solid; */
+    padding: 7px;
+    min-height: 8vh;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.setting-item:hover {
+    background: blueviolet;
+    color: white;
+}
+
+.setting-item-icon {
+    /* border: 1px solid; */
+    background-color: #f8f9fa;
+    color: #000;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.setting-item-text {
+    margin-left: 10px;
+}
+
+.setting-item-text h5 {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.setting-item-text span {
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.setting-switch-container {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    /* border-bottom: 1px solid; */
+    align-items: center;
+}
+
+.setting-switch-container label p {
+    font-size: 12px;
+    max-width: 90%;
+}
+
+.offcanvas-bottom {
+    min-height: 50vh;
+}
+
+.provider-card {
+    border-radius: 15px;
+}
+
+.provider-card h5 {
+    font-size: 15px;
+    color: darkgray;
+    margin-bottom: 20px;
+}
+
+.provider-card .card {
+    border-radius: 10px;
+}
+
+
+.provider-body {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+
+}
+
+.provider-body img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.provider-active {
+    border: 1px solid blueviolet;
+}
+
+.phone-container {
+    margin-top: 30px;
+}
+
+.phone-container .card {
+    border-radius: 15px;
+}
+
+.phone-container h6 {
+    color: darkgray;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+/* .phone-container input {
+    height: ;
+} */
+
+.phone-container .input-group-text {
+    border-right: none;
+}
+
+.phone-container input {
+    border-left: none !important;
+}
+
+.amount-card {
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+.amount-card h5 {
+    color: darkgray;
+    font-size: 15px;
+    margin-bottom: 19px;
+}
+
+.amount-card .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amount-card input {
+    margin-top: 10px;
+}
+
+/* data card */
+.data-card {
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.data-card .card-title {
+    font-size: 15px;
+}
+
+/* buy data  */
+
+.buy-data-container {
+    margin-top: 20px;
+}
+
+@media (max-width: 790px) {
+    .buy-data-container {
+        margin-top: 110px;
+    }
+}
+
+.buy-data-container .card {
+    min-height: 20vh;
+}
+
+.buy-data-container .card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-data-container .input-group-text {
+    border-right: 0;
+    background: #fff;
+}
+
+.buy-data-container input {
+    border-left: 0;
+}
+
+.enter-phone-text {
+    color: grey;
+}
